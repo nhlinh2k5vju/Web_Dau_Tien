@@ -1,0 +1,25 @@
+#linhf{
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+:root {
+    --first-color: Red;
+    --second-color: Blue;
+    --third-color: Green;
+    --fourth-color: Yellow;
+    --fifth-color: Purple;
+    --sixth-color: Orange;
+    --seventh-color: Pink;
+}
+
+#aka {
+    color: var(--third-color);
+}
+
+.linh {
+    color: var(--fifth-color);
+    font-size: 20px;
+}
